@@ -1,0 +1,125 @@
+/* 
+  ========================================
+  Heading CSS
+  ========================================
+*/
+
+
+
+h3 {
+  text-align: center;
+  text-decoration: underline #000000;
+  margin-bottom: 20px;
+}
+
+h6 {
+  text-align: center;
+  text-decoration: underline #FF0800;
+
+}
+
+h5 {
+  text-align: center;
+  text-decoration: underline mediumseagreen;
+
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 10px;
+  display: inline-block;
+}
+
+#box1 {
+  border: solid #000000;
+
+}
+
+#box2 {
+  border-style: dashed;
+  border-color: #FFFF00;
+
+}
+
+#box3 {
+  border-color: #FF00FF;
+
+}
+
+#changeBox1 {
+  background-color: #BEBFC5;
+  color: #000000;
+  border: #BEBFC5;
+  margin: 15px;
+
+}
+
+#changeBox2 {
+  background-color: #BEBFC5;
+  color: #000000;
+  border: #BEBFC5;
+  margin: 15px;
+}
+
+#changeBox3 {
+  background-color: #BEBFC5;
+  color: #000000;
+  border: #BEBFC5;
+  margin: 15px;
+}
+
+#changeAll {
+
+  background-color: #BEBFC5;
+  color: #000000;
+  border: #BEBFC5;
+  margin: 15px;
+
+}
+
+#hideBox1 {
+  background-color: #BEBFC5;
+  color: #000000;
+  border: #BEBFC5;
+  margin: 15px;
+}
+
+#hideBox2 {
+  background-color: #BEBFC5;
+  color: #000000;
+  border: #BEBFC5;
+  margin: 15px;
+}
+
+#hideBox3 {
+  background-color: #BEBFC5;
+  color: #000000;
+  border: #BEBFC5;
+  margin: 15px;
+
+}
+
+#hideAll {
+  background-color: #BEBFC5;
+  color: #000000;
+  border: #BEBFC5;
+  margin: 15px;
+
+}
+
+#resetColors {
+  background-color: #BEBFC5;
+  color: #000000;
+  border: #BEBFC5;
+  margin: 15px;
+
+}
+
+#showAll {
+  background-color: #BEBFC5;
+  color: #000000;
+  border: #BEBFC5;
+  margin: 15px;
+}
