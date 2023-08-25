@@ -5,9 +5,9 @@ const originalColors = {
 };
 
 const originalBorderStyles = {
-  box1: "solid #000000",
-  box2: "dashed #FFFF00",
-  box3: "solid #FF00FF",
+  box1: "solid 4px #000000",
+  box2: "dashed 5px #FFFF00",
+  box3: "solid 4px #FF00FF",
 };
 
 const boxes = document.querySelectorAll('.box');
@@ -113,12 +113,9 @@ document.getElementById('showAll').addEventListener('click', () => {
 
 // Initialize box colors
 resetBoxColors();
+
+// Initialize box border styles using the CSS styles
 boxes.forEach((box, index) => {
-  const originalBorderStyles = {
-    box1: "solid #000000",
-    box2: "dashed #FFFF00",
-    box3: "solid #FF00FF",
-  };
-  
-  box.style.border = originalBorderStyles[`box${index + 1}`];
+  const boxNumber = index + 1;
+  box.classList.add(`box${boxNumber}`);
 });
