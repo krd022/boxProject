@@ -37,7 +37,7 @@ function resetBoxBorderColors() {
 }
 
 function toggleBoxVisibility(box) {
-  box.style.display = box.style.display === 'none' ? 'inline-block' : 'none';
+  box.style.visibility = box.style.Visibility === 'hidden' ? 'visible' : 'hidden';
 }
 
 boxes.forEach((box, index) => {
@@ -96,18 +96,18 @@ document.getElementById('hideBox3').addEventListener('click', () => {
 
 document.getElementById('hideAll').addEventListener('click', () => {
   boxes.forEach(box => {
-    box.style.display = 'none';
+    toggleBoxVisibility(box);
   });
 });
 
 document.getElementById('resetColors').addEventListener('click', () => {
   resetBoxColors();
-});
+  });
 
-
+  
 document.getElementById('showAll').addEventListener('click', () => {
   boxes.forEach(box => {
-    box.style.display = 'inline-block';
+    box.style.visibility = "visible";
   });
 });
 
